@@ -4,5 +4,5 @@ COPY requirements.txt /app
 WORKDIR /app
 RUN pip install -r requirements.txt
 USER pythonuser
-COPY 1.py /app
-CMD ["python", "/app/1.py"]
+COPY app.py /app
+CMD ["python", "/app/app.py"]
