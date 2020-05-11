@@ -1,2 +1,2 @@
 boto3
-flask
+flask=0.10.1
